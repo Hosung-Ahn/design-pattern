@@ -26,10 +26,8 @@ abstract class Duck {
     }
 
     public void swim() {
-        System.out.println("첨벙첨벙");
     }
 
     public void display() {
-        System.out.println("난 오리야");
     }
 }
