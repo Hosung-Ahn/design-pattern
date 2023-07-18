@@ -6,5 +6,11 @@ public class App {
         Duck strongDuck = new StrongDuck();
         strongDuck.performFly();
         strongDuck.performQuack();
+
+        Duck rubberDuck = new RubberDuck();
+        rubberDuck.performQuack();
+        rubberDuck.setQuackBehavior(new QuackWing());
+        rubberDuck.performQuack();
+
     }
 }
