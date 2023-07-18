@@ -1,6 +1,6 @@
 package me.design_pattern.duck;
 
-public class Duck {
+abstract class Duck {
     private final FlyBehavior flyBehavior;
     private final QuackBehavior quackBehavior;
 
