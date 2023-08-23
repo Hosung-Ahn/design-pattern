@@ -1,10 +1,7 @@
 package me.design_pattern.decoratorPattern;
 
 public abstract class Beverage {
-    String description = "제목 없음";
 
-    public String getDescription() {
-        return description;
-    }
+    public abstract String getDescription();
     public abstract double cost();
 }
